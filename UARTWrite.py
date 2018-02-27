@@ -15,9 +15,11 @@ counter=0
 
 
 while 1:
-        x=ser.readline()
+        ser.write("Hi")
+
+	"""x=ser.readline()
         if x == "Hi":
 		print x
  	      	ser.write("What's up?")
-
+	"""
 
